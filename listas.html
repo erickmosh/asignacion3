@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Tipos de Listas</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+  <nav>
+    <ul>
+      <li><a href="listas.html">Listas</a></li>
+      <li><a href="tabla.html">Tabla</a></li>
+      <li><a href="modelocajas.html">Modelo de Cajas</a></li>
+      <li><a href="formulario.html">Formulario</a></li>
+    </ul>
+  </nav>
+  <style>
+    body {
+      background-color: #f2f2f2;
+      font-family: Arial, sans-serif;
+    }
+
+    h1 {
+      color: #333;
+      text-align: center;
+      padding: 20px;
+    }
+
+    h2 {
+      color: #555;
+      margin-top: 30px;
+      margin-bottom: 10px;
+    }
+
+    ul {
+      list-style-type: none;
+      margin-left: 20px;
+      padding-left: 0;
+    }
+
+    ul li:before {
+      content: "\2022";
+      color: #cc1919;
+      font-weight: bold;
+      display: inline-block;
+      width: 1em;
+      margin-left: -1em;
+    }
+
+    ol {
+      list-style-type: decimal;
+      margin-left: 20px;
+      padding-left: 0;
+    }
+
+    dl {
+      margin-left: 20px;
+    }
+
+    dt {
+      font-weight: bold;
+      color: #cc1919;
+    }
+
+    dd {
+      margin-bottom: 10px;
+    }
+
+    nav {
+      background-color: #333;
+      padding: 10px;
+    }
+
+    nav ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      text-align: center;
+    }
+
+    nav ul li {
+      display: inline-block;
+      margin-right: 10px;
+    }
+
+    nav ul li a {
+      display: block;
+      color: #fff;
+      padding: 10px;
+      text-decoration: none;
+    }
+
+    nav ul li a:hover {
+      background-color: #555;
+    }
+  </style>
+</head>
+<body>
+ 
+
+  <h1>Tipos de Listas</h1>
+  
+  <h2>Listas sin orden</h2>
+  <ul>
+    <li>Elemento 1</li>
+    <li>Elemento 2</li>
+    <li>Elemento 3</li>
+  </ul>
+
+  <h2>Listas ordenadas</h2>
+  <ol>
+    <li>Elemento 1</li>
+    <li>Elemento 2</li>
+    <li>Elemento 3</li>
+  </ol>
+
+  <h2>Listas de definición</h2>
+  <dl>
+    <dt>Término 1</dt>
+    <dd>Definición 1</dd>
+    <dt>Término 2</dt>
+    <dd>Definición 2</dd>
+    <dt>Término 3</dt>
+    <dd>Definición 3</dd>
+  </dl>
+</body>
+</html>
+
+  
+

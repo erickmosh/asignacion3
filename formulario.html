@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Formulario</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+  <nav>
+    <ul>
+      <li><a href="listas.html">Listas</a></li>
+      <li><a href="tabla.html">Tabla</a></li>
+      <li><a href="modelocajas.html">Modelo de Cajas</a></li>
+      <li><a href="formulario.html">Formulario</a></li>
+    </ul>
+  </nav>
+ 
+</head>
+<body>
+  <h1>Formulario</h1>
+  
+  <div class="container">
+    <form>
+      <div class="form-group">
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" placeholder="Ingrese su nombre" required>
+      </div>
+      
+      <div class="form-group">
+        <label for="apellido">Apellido:</label>
+        <input type="text" id="apellido" name="apellido" placeholder="Ingrese su apellido" required>
+      </div>
+      
+      <div class="form-group">
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="Ingrese su email" required>
+      </div>
+      
+      <div class="form-group">
+        <label for="contrasena">Contraseña:</label>
+        <input type="password" id="contrasena" name="contrasena" placeholder="Ingrese su contraseña" required>
+      </div>
+      
+      <div class="form-group">
+        <label for="edad">Edad:</label>
+        <select id="edad" name="edad" required>
+          <option value="">Seleccione su edad</option>
+          <option value="18-25">18-25 años</option>
+          <option value="26-35">26-35 años</option>
+          <option value="36-45">36-45 años</option>
+          <option value="46+">46 años o más</option>
+        </select>
+      </div>
+      
+      <button type="submit">Registrarse</button>
+    </form>
+    <div class="image-container">
+      <img src="imagen1.jpg" alt="Imagen">
+  </div>
+  
+</body>
+</html>
+
+

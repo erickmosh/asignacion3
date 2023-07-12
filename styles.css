@@ -1,0 +1,288 @@
+/* styles.css */
+
+/* Estilos generales */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  color: #333;
+}
+
+/* Estilos de menú de opciones */
+nav {
+  background-color: #333;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline-block;
+}
+
+nav ul li a {
+  display: block;
+  color: #fff;
+  padding: 10px 20px;
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  background-color: #555;
+}
+
+/* Estilos de tabla */
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+table th, table td {
+  border: 1px solid #ccc;
+  padding: 8px;
+}
+
+/* Estilos de formulario */
+form {
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+form input[type="text"], form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+}
+
+form input[type="submit"] {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+form input[type="submit"]:hover {
+  background-color: #555;
+}
+
+/* styles.css */
+
+h1 {
+    font-size: 18px;
+  }
+  
+ul {
+    list-style-type: disc;
+    padding-left: 20px;
+  }
+  
+  /* Estilos para listas ordenadas */
+  ol {
+    list-style-type: decimal;
+    padding-left: 20px;
+  }
+  
+  /* Estilos para listas de definición */
+  dl {
+    padding-left: 20px;
+  }
+  
+  dt {
+    font-weight: bold;
+  }
+  
+  dd {
+    margin-left: 10px;
+  }
+  
+  /* Estilos adicionales para mejorar la apariencia */
+  h2 {
+    color: #333;
+    margin-top: 30px;
+  }
+  
+  /* styles.css */
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  th, td {
+    border: 1px solid #ccc;
+    padding: 8px;
+  }
+  
+  th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  tr:hover {
+    background-color: #e6e6e6;
+  }
+
+  /* styles.css */
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  .box {
+    background-color: #f2f2f2;
+    border: 1px solid #9935d3;
+    padding: 20px;
+    width: 300px;
+    text-align: center;
+  }
+  
+  .box h2 {
+    color: #333;
+  }
+  
+  .box p {
+    color: #777;
+  }
+  /* styles.css */
+
+.box.box1 {
+    background-color: #F8AFA6;
+  }
+  
+  .box.box2 {
+    background-color: #C5D86D;
+  }
+  
+  .box.box3 {
+    background-color: #A7C5EB;
+  }
+  
+  
+  nav {
+    background-color: #333;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline-block;
+  }
+  
+  nav ul li a {
+    display: block;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+  }
+  
+  nav ul li a:hover {
+    background-color: #555;
+  }
+  
+  /* styles.css */
+
+.form-group {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    display: block;
+    font-weight: bold;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+  }
+  
+  button[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #555;
+  }
+
+
+.container {
+    background-color: #cc1919;
+    padding: 20px;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .container form {
+    color: #fff;
+  }
+  
+  .container form .form-group label {
+    color: #fff;
+  }
+  
+  .container form .form-group input,
+  .container form .form-group select {
+    color: #fff;
+    background-color: #333;
+    border: none;
+    padding: 10px;
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  
+  .container form button[type="submit"] {
+    background-color: #fff;
+    color: #000;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .container form button[type="submit"]:hover {
+    background-color: #ccc;
+  }
+    
+     .container {
+      flex: 1;
+      padding: 20px;
+    }
+
+    .image-container {
+      flex: 1;
+      display: flex;
+      justify-content: flex-end;
+      align-items: flex-end;
+    }
+
+    .image-container img {
+      max-width: 100%;
+      max-height: 100%;
+    }
